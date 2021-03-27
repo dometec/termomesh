@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ProjectLib)(type KiCad)(uri /home/dometec/kicad/BeaconTemperature/lib)(options "")(descr ""))
+  (lib (name nrf24smd)(type KiCad)(uri ${KIPRJMOD}/lib/nrf24smd.pretty)(options "")(descr ""))
+)

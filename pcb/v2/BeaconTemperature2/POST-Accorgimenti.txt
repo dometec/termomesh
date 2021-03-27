@@ -1,0 +1,21 @@
+Bugs:
+NRF24 Socket invertito
+C1 con pin invertiti
+R4 sempre in parallelo ad R3
+Quando il transistor Q1 non è attivato (ed il ponticello JP3 aperto) la tensione di ADC6 è portata verso la batteria (anche se c'è una resistenza da 10M)
+Connettore Serial1 shiftato di un pin per socket standard
+I due regolatori LDO consumano troppa batteria, ognuno ciuccia circa 12mA. L'ATMega328P, in sleep mode, consuma circa 40uA.
+https://learn.sparkfun.com/tutorials/reducing-arduino-power-consumption
+
+Da vedere:
+Corrente di quitescenza U2 (reg 5v) elevata
+
+Improvements:
+Aggiungere interruttore dopo le batterie 
+
+Cose buone:
+Linee per relè (che posso staccare) anche sul connettore Service1
+Possibilità di dividere la scheda
+
+
+Precedente versione: La piedinatura del connettore microUSB è invertira rispetto ai connettori che ho acquistato.
